@@ -1,1 +1,20 @@
 Technical requirements
+
+To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
+All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch10 folder:
+https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch10
+Python installation
+To begin, you'll need to install the latest version of Python on your computer. Visit the official Python website (https://www.python.org/downloads/) to download and install the appropriate version for your operating system. Be sure to select the option to add Python to your system's path during the installation process.
+Integrated development environment (IDE)
+Although not strictly required, using an IDE can significantly enhance your coding experience. Popular Python IDEs include Visual Studio Code (https://code.visualstudio.com/), PyCharm (https://www.jetbrains.com/pycharm/), and Jupyter Notebook (https://jupyter.org/). Choose an IDE that best suits your preferences and install it on your system.
+Package manager
+Python's package manager, pip, allows you to easily install and manage libraries. Pip is typically included with Python installations (version 3.4 and later). To verify that pip is installed, open a command prompt or terminal window and enter the following command:
+pip --version
+If pip is not installed, follow the instructions on the official pip documentation (https://pip.pypa.io/en/stable/installation/) to install it.
+Library installation
+Once Python and pip are set up, you'll need to install the libraries used in this book for options pricing and analysis. Open a command prompt or terminal window and enter the following command to install the required libraries:
+pip install numpy pandas matplotlib scipy
+This command installs NumPy, pandas, Matplotlib, and SciPy, which are essential libraries for data manipulation, statistical analysis, and numerical computation.
+Important note
+As we delve deeper into the book, we will introduce more specialized finance and options valuation libraries to enhance your understanding of the subject matter. These libraries will provide you with advanced tools and functionalities, allowing you to tackle complex options pricing scenarios and gain valuable insights.
+With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
