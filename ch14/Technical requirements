@@ -1,1 +1,32 @@
 Technical requirements
+To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
+All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch14 folder: https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch14
+
+For detailed descriptions of the below four topics, please refer to the Technical Requirements section in Chapter 4.:
+•	Python and Anaconda installation 
+•	Integrated development environments (IDEs)
+•	Package manager
+•	Creating the “mboptions” Environment
+•	Libraries needed for this chapter and installation
+
+Loading needed Libraries and modules
+For this chapter, we'll initiate our Python code by first importing the necessary libraries and modules, as outlined below:
+# import Lib
+import pandas as pd
+import datetime as dt
+import pytz
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.stats as si
+import math
+
+# import module
+from datetime import datetime, timezone
+from datetime import date, time
+from math import trunc
+from scipy.stats import norm
+
+With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
+ 
+
