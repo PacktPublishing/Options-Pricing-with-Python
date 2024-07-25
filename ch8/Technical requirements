@@ -1,21 +1,48 @@
 Technical requirements
 
 To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
-All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch8 folder:
-https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch8
-Python installation
-To begin, you'll need to install the latest version of Python on your computer. Visit the official Python website (https://www.python.org/downloads/) to download and install the appropriate version for your operating system. Be sure to select the option to add Python to your system's path during the installation process.
-Integrated development environment (IDE)
-Although not strictly required, using an IDE can significantly enhance your coding experience. Popular Python IDEs include Visual Studio Code (https://code.visualstudio.com/), PyCharm (https://www.jetbrains.com/pycharm/), and Jupyter Notebook (https://jupyter.org/). Choose an IDE that best suits your preferences and install it on your system.
-Package manager
-Python's package manager, pip, allows you to easily install and manage libraries. Pip is typically included with Python installations (version 3.4 and later). To verify that pip is installed, open a command prompt or terminal window and enter the following command:
-pip --version
-If pip is not installed, follow the instructions on the official pip documentation (https://pip.pypa.io/en/stable/installation/) to install it.
-Library installation
-Once Python and pip are set up, you'll need to install the libraries used in this book for options pricing and analysis. Open a command prompt or terminal window and enter the following command to install the required libraries:
-pip install numpy pandas matplotlib scipy
-This command installs NumPy, pandas, Matplotlib, and SciPy, which are essential libraries for data manipulation, statistical analysis, and numerical computation.
-Important note
-As we delve deeper into the book, we will introduce more specialized finance and options valuation libraries to enhance your understanding of the subject matter. These libraries will provide you with advanced tools and functionalities, allowing you to tackle complex options pricing scenarios and gain valuable insights.
+All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch8 folder: https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch8.
+The installation of Python, Anaconda, integrated development environments (IDEs), and package managers, as well as the creation of the “mboptions” environment, has already been covered in Chapter 4. You can install all the necessary packages listed in the requirements file as follow:
+
+Once Python and pip are set up, you'll need to install the libraries needed for this chapter if they are not installed yet. The library versions installed for this chapter along with Python version 3.11.7 are as follows:
+pandas 2.2.2
+pytz 2024.1
+numpy 1.26.4
+matplotlib 3.8.4
+python-dateutil 2.9.0.post0
+To install the necessary libraries for your Python script, you will need to use either pip or conda. The installation process was covered in detail in Chapter 4.
+Here is a list of the libraries and their purposes, along with the necessary import statements:
+# import Lib
+import pandas as pd            # Data manipulation and analysis
+import datetime as dt          # Date and time manipulation
+import pytz                    # Time zone calculations
+import os                      # Operating system interfaces
+import numpy as np             # Numerical operations and array manipulations
+import matplotlib.pyplot as plt# Plotting and visualization
+import scipy.stats as si       # Statistical functions
+import math                    # Mathematical functions
+import networkx as nx          # Creation, manipulation, and study of complex networks
+import tensorflow as tf        # Machine learning and neural networks
+import xgboost as xgb          # Gradient Boosting Machines for regression and classification
+
+# import module
+from datetime import datetime, timezone  # Date and time manipulation with timezone support
+from datetime import date, time          # Date and time manipulation
+from math import trunc                   # Truncate floating-point numbers
+from dateutil.parser import parse        # Parsing dates from strings
+from scipy.stats import norm             # Normal distribution functions
+from scipy.optimize import minimize      # Optimization algorithms
+from arch import arch_model              # Autoregressive Conditional Heteroskedasticity models
+from sklearn.model_selection import train_test_split  # Splitting datasets into training and testing
+from sklearn.preprocessing import StandardScaler      # Feature scaling and normalization
+from tensorflow.keras.models import Sequential        # Neural network model
+from tensorflow.keras.layers import Dense, Input      # Neural network layers
+from sklearn.svm import SVR                           # Support Vector Regression model
+from sklearn.ensemble import RandomForestRegressor    # Random Forest Regression model
+from sklearn.metrics import mean_squared_error        # Metrics for evaluating model performance
+from scipy.optimize import brentq                     # Root-finding algorithm
+from mpl_toolkits.mplot3d import Axes3D               # 3D plotting
+from scipy.interpolate import griddata                # Interpolation of scattered data
+These libraries and modules are essential for various aspects of financial modeling and machine learning tasks covered in this chapter. They facilitate data manipulation, statistical analysis, machine learning model building, and visualization, enabling efficient and precise calculations of implied volatility and option pricing.
 With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
- 
+Let's move on to introducing the implied volatility in the next section.
