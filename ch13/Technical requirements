@@ -1,1 +1,20 @@
+To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
+All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch12 folder: https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch13
 
+The installation of Python, Anaconda, integrated development environments (IDEs), and package managers, as well as the creation of the “mboptions” environment, has already been covered in Chapter 4. Once Python and pip are set up, you'll need to install the libraries needed for this chapter if they are not installed yet. The installation process was covered in detail in Chapter 4.
+
+Here is a list of the libraries and their purposes, along with the necessary import statements:
+
+
+# Import Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Import Modules 
+from scipy.stats import norm
+from scipy.optimize import minimize
+
+These libraries and modules are essential for various aspects of financial modeling and machine learning tasks covered in this chapter. They facilitate data manipulation, statistical analysis, machine learning model building, and visualization, enabling efficient and precise calculations of implied volatility and option pricing.
+
+With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
