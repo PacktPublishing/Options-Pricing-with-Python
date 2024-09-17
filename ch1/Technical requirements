@@ -1,26 +1,26 @@
 Technical requirements
-To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
-All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch1 folder:
-https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch1
 
-Python installation
-To begin, you'll need to install the latest version of Python on your computer. Visit the official Python website (https://www.python.org/downloads/) to download and install the appropriate version for your operating system. Be sure to select the option to add Python to your system's path during the installation process.
-
-Integrated development environment (IDE)
-Although not strictly required, using an IDE can significantly enhance your coding experience. Popular Python IDEs include Visual Studio Code (https://code.visualstudio.com/), PyCharm ( https://www.jetbrains.com/pycharm/), and Jupyter Notebook (https://jupyter.org/). Choose an IDE that best suits your preferences and install it on your system.
-
-Package manager
-Python's package manager, pip, allows you to easily install and manage libraries. Pip is typically included with Python installations (version 3.4 and later). To verify that pip is installed, open a command prompt or terminal window and enter the following command:
-pip --version
-If pip is not installed, follow the instructions on the official pip documentation (https://pip.pypa.io/en/stable/installation/) to install it.
-
-Library installation: 
-Once Python and pip are set up, you'll need to install the libraries used in this book for options pricing and analysis. Open a command prompt or terminal window and enter the following command to install the required libraries:
-pip install numpy pandas matplotlib scipy
-This command installs NumPy, pandas, Matplotlib, and SciPy, which are essential libraries for data manipulation, statistical analysis, and numerical computation.
-
-Important note
-As we delve deeper into the book, we will introduce more specialized finance and options valuation libraries to enhance your understanding of the subject matter. These libraries will provide you with advanced tools and functionalities, allowing you to tackle complex options pricing scenarios and gain valuable insights.
-
-With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
-
+In this introductory chapter, we focus on the technical requirements to get you started with the GitHub repository for this book, which can be accessed at https://github.com/PacktPublishing/Options-Trading-with-Python-. This repository includes Jupyter notebooks and flat file data to support your learning.
+To explore options pricing with Python, it's essential to set up a well-configured development environment. This includes installing Python and selecting an Integrated Development Environment (IDE) that suits your preferences. In Chapter 4, you'll find detailed instructions on installing Python and choosing an IDE, such as Visual Studio Code, PyCharm, or Jupyter Notebook. These IDEs enhance the coding process with features for writing, debugging, and executing code.
+Since we will be using Jupyter notebooks throughout the book, it's beneficial to have Jupyter Lab or Jupyter Notebook installed. We recommend using Anaconda, a Python distribution tailored for data science and machine learning, which simplifies package management and virtual environment handling. It includes IDEs like Jupyter and Spyder for interactive coding. Creating virtual environments is crucial to ensure you use the same library versions as we do, ensuring the code runs smoothly. Instructions for creating a virtual environment will be provided in Chapter 4.
+Essential Libraries for This Book
+Here’s a comprehensive list of the Python libraries used in this book, categorized by purpose:
+•	Conventional Data Science Libraries: For data manipulation, machine learning, and statistical analysis.
+o	pandas: Data manipulation and analysis.
+o	numpy: Numerical computing.
+o	matplotlib: Data visualization.
+o	scipy: Scientific computing.
+o	sklearn: Machine learning.
+o	tensorflow: Deep learning.
+o	keras: High-level neural networks API.
+o	xgboost: Gradient boosting framework.
+o	stable-baselines3: Reinforcement learning.
+o	gymnasium: Toolkit for developing reinforcement learning environments.
+•	Options Pricing, Quant, and Trading-Focused Libraries: For financial markets, quantitative analysis, and algorithmic trading.
+o	arch: Autoregressive conditional heteroskedasticity models.
+o	yfinance: Access to financial data from Yahoo Finance.
+o	networkx: Analysis of complex networks.
+•	Time Management and Utilities: For date/time manipulation and mathematical functions.
+o	dateutil: Powerful extensions to datetime.
+o	pytz: Accurate timezone calculations.
+This classification helps distinguish between general data science libraries, those focused on finance and quantitative trading, and utilities for various tasks.
