@@ -1,0 +1,24 @@
+# Conventional Data Science Libraries
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+scipy==1.14.1
+scikit-learn==1.5.2
+tensorflow==2.17.0
+keras==3.5.0
+xgboost==2.1.1
+stable-baselines3==2.3.2
+gymnasium==0.29.1
+
+# Options Pricing, Quant, and Trading-Focused Libraries
+arch==7.0.0
+yfinance==0.2.43
+networkx==3.3
+
+# Time Management and Utilities
+python-dateutil==2.9.0post0
+pytz==2024.2
+
+# Jupyter Tools
+jupyterlab==4.2.5
+notebook==7.2.2
