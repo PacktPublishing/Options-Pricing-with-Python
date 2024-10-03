@@ -1,24 +1,23 @@
+
 Technical requirements
 To ensure a smooth learning experience throughout this book, it's essential to have the necessary technologies and installations set up. This section outlines the technical requirements for working with Python and relevant libraries.
 All technical requirement related to this chapter are shared in the book’s GitHub URL below under ch06 folder: https://github.com/PacktPublishing/Options-Trading-with-Python-/tree/main/ch6
-The installation of Python, Anaconda, integrated development environments (IDEs), and package managers, as well as the creation of the “mboptions” environment, has already been covered in Chapter 4. You can install all the necessary packages listed in the requirements file from Chapter 4, as we will be using the same libraries, with the exception of the yfinance library.
 
-Libraries needed for this chapter and installation
+The installation of Python, Anaconda, integrated development environments (IDEs), and package managers, as well as the creation of the mboptions environment, has already been covered in detail in Chapter 4. 
+You can install all the book necessary packages listed in the requirement file opprequirements.txt from Chapter 4, or you can limit yourself to installing the libraries used in this chapter details below.
+Libraries needed for this chapter
 Once Python and pip are set up, you'll need to install the libraries needed for this chapter if not installed yet.
-The libraries versions installed for this chapter along with Python version 3.11.7 are as follow:
-•	pandas             	2.2.2
-•	pytz               	2024.1
-•	numpy              	1.26.4
-•	matplotlib         	3.8.4
+The libraries versions installed for this chapter along with Python version 3.12.6   are as follow:
+•	pandas 2.2.2
+•	pytz 2024.2
+•	numpy 1.26.4
+•	matplotlib 3.9.2
+•	scipy 1.14.1
 •	python-dateutil 2.9.0.post0
-•	networkx	3.1
-
-To install the necessary libraries for your Python script, you will need to use either pip or conda. The installation process was covered in detail in Chapter 4.
-
+•	networkx 3.3
+To install the necessary libraries for your Python script, you will need to use either pip or conda. The installation process was covered in detail in Chapter 4. Our Python code is compatible with older versions of Python 3 and its libraries; however, I recommend using the same version to avoid any surprises.
 Loading needed Libraries and modules
-
 For this chapter, we'll initiate our Python code by first importing the necessary libraries and modules, as outlined below:
-
 # import Lib
 import pandas as pd
 import datetime as dt
@@ -27,16 +26,15 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy.stats as s
+import scipy.stats as si
 import math
 import networkx as nx
-
 # import module
 from datetime import datetime, timezone
 from datetime import date, time
 from math import trunc
 from dateutil.parser import parse
 
-With these technical requirements in place, you're now ready to dive into the world of options pricing using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.
 Important note
 NetworkX is a Python library used for the creation, manipulation, and study of complex networks (graphs). It provides tools to work with both undirected and directed graphs and supports various graph algorithms.
+With these technical requirements in place, you're now ready to dive into the world of options pricing with binomial and trinomial trees using Python. As you progress through the book, you'll gain hands-on experience and practical skills by working with these powerful tools and libraries.  
