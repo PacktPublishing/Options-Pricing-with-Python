@@ -1,0 +1,8 @@
+Parameter,Value
+Contract Size,$50 × S&P 500 Index
+Minimum Tick,0.25 index points
+Tick Value,12.5
+Trading Hours,Nearly 24 hours (Sun–Fri)
+Contract Months,"Mar, Jun, Sep, Dec"
+Settlement,Cash settled
+Exchange,CME

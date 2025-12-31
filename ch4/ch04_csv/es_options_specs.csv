@@ -1,0 +1,8 @@
+Parameter,Value
+Underlying,E-mini S&P 500 Futures
+Contract Multiplier,$50 × index
+Tick Size,0.25
+Tick Value,12.5
+Exercise Style,American & European (by product)
+Settlement,Cash or Futures (product-specific)
+Expirations,"Weekly, Monthly, Quarterly"
