@@ -1,0 +1,15 @@
+numpy==2.3.5
+pandas==2.3.3
+matplotlib==3.10.8
+scipy==1.16.3
+yfinance==0.2.66
+pytz==2025.2
+python-dateutil==2.9.0.post0
+requests==2.32.5
+networkx==3.6.1
+arch==8.0.0
+scikit-learn==1.8.0
+keras==3.14.0
+gymnasium==1.2.3
+stable-baselines3==2.8.0
+torch==2.11.0+cpu
