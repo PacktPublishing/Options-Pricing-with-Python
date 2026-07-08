@@ -4,4 +4,4 @@ matplotlib==3.10.8
 yfinance==0.2.66
 pytz==2025.2
 python-dateutil==2.9.0.post0
-requests==2.32.5
+requests==2.33.0
